@@ -10,7 +10,7 @@ spec:
   serviceUnhealthySecondThreshold: 300 # Config for the health check threshold for service. Default value is 60.
   deploymentUnhealthySecondThreshold: 300 # Config for the health check threshold for deployments. Default value is 60.
   serveConfig:
-    importPath: 2nn.translation_handle
+    importPath: 2nn.translation_bind
     runtimeEnv: |
       working_dir: "https://github.com/oleksandrvedmid/test/blob/master/2nn.zip"
     deployments:
