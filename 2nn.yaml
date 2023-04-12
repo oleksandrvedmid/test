@@ -12,7 +12,7 @@ spec:
   serveConfig:
     importPath: 2nn.translation_handle
     runtimeEnv: |
-      working_dir: "https://github.com/SafeGuard-Cyber/research/blob/main/ray/sample_deployment_kubernatis/2nn.zip"
+      working_dir: "https://github.com/oleksandrvedmid/test/blob/master/2nn.zip"
     deployments:
       - name: Translation
         numReplicas: 1
